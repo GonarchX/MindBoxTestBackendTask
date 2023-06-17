@@ -9,12 +9,12 @@
 ```
 CREATE TABLE product (
     id bigserial PRIMARY KEY,
-  	name varchar(255)
+  	name varchar
 );
 
 CREATE TABLE category (
     id bigserial PRIMARY KEY,
-  	name varchar(255)
+  	name varchar
 );
 
 CREATE TABLE products_categories (
@@ -49,4 +49,4 @@ LEFT JOIN products_categories ON products_categories.product_id = product.id
 LEFT JOIN category ON products_categories.category_id = category.id
 ```
 
-Для проверки работы предлагаю воспользоваться следующим сервисом - https://www.db-fiddle.com/
+Для проверки работы предлагаю воспользоваться следующим сервисом - https://www.db-fiddle.com/ (не забудьте в выпадающем окне слева сверху указать базу данных PostgreSQL v15)
