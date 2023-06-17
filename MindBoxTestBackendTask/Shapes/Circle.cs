@@ -13,6 +13,7 @@ public class Circle : Shape
 
     public override double CalculateArea() => Math.PI * Math.Pow(_radius, 2);
 
+    // Метод проверяющий корректность круга с заданными сторонами
     private void ValidateCircleRadius(double radius)
     {
         if (radius < 0)
