@@ -30,7 +30,7 @@ public class Triangle : Shape
 
         /*
             Оригинальные условия проверки "прямоугольности" треугольника выглядят следующим образом:
-            sideA^2 +sideB^2 == sideC^2
+            sideA^2 + sideB^2 == sideC^2
             и далее по аналогии для сторон "B" и "C".
            
             Однако, т.к. мы работаем с числами с плавающей точкой, возможна ситуация,
@@ -58,7 +58,7 @@ public class Triangle : Shape
         if (sideC <= 0)
             throw new ArgumentException(negativeSideSizeMessage, nameof(sideC));
 
-        var av = "Сумма двух сторон меньше либо равна третьей стороне";
+        var av = "Сумма двух сторон треугольника должна быть больше третьей стороны";
         if (sideB + sideC <= sideA)
             throw new ArgumentException(av, nameof(sideA));
         if (sideA + sideC <= sideB)

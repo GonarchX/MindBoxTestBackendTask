@@ -16,6 +16,6 @@ public class Circle : Shape
     private void ValidateCircleRadius(double radius)
     {
         if (radius < 0)
-            throw new ArgumentException("Радиус круга не должен отрицательным числом", nameof(radius));
+            throw new ArgumentException("Радиус круга должен быть больше, либо равен 0", nameof(radius));
     }
 }
