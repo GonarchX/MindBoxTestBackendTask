@@ -48,3 +48,5 @@ FROM product
 LEFT JOIN products_categories ON products_categories.product_id = product.id
 LEFT JOIN category ON products_categories.category_id = category.id
 ```
+
+Для проверки работы предлагаю воспользоваться следующим сервисом - https://www.db-fiddle.com/
