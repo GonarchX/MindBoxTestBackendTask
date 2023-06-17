@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBoxTestBackendTask", "MindBoxTestBackendTask\MindBoxTestBackendTask.csproj", "{DADBE238-264C-4078-80BF-813F85EE438C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBoxTestBackendTask.Tests", "MindBoxTestBackendTask.Tests\MindBoxTestBackendTask.Tests.csproj", "{30D0B227-8645-4075-8774-32FBD6A0AB1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{DADBE238-264C-4078-80BF-813F85EE438C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DADBE238-264C-4078-80BF-813F85EE438C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DADBE238-264C-4078-80BF-813F85EE438C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D0B227-8645-4075-8774-32FBD6A0AB1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D0B227-8645-4075-8774-32FBD6A0AB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D0B227-8645-4075-8774-32FBD6A0AB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D0B227-8645-4075-8774-32FBD6A0AB1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
